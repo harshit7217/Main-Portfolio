@@ -1,3 +1,5 @@
+/* Navbar */
+
 .navbar .container-fluid {
     background-color: white;
 }
@@ -23,9 +25,11 @@
 }
 
 .brand-image {
-    border-radius: 50%;
-    margin-left: 15%;
+    border-radius: 45%;
+    margin-left: 55%;
 }
+
+/* Hero Section */
 
 .hero-section {
     margin-top: 10vh;
@@ -34,4 +38,19 @@
 .p-2 {
     margin-top: 3vh;
     margin-bottom: 4vh;
+}
+
+.hero-button {
+    display: flex;
+    gap: 5%;
+}
+
+.img-fluid {
+    border: 0px solid skyblue;
+    border-bottom-left-radius: 70%;
+    box-shadow: -5px 1.5rem 5px rgba(115, 207, 244, 0.74);
+}
+
+.welcome {
+    color: rgb(115, 207, 244);
 }
