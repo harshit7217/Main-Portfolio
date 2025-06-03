@@ -56,7 +56,7 @@
 .img-fluid {
     border: 0px solid skyblue;
     border-bottom-left-radius: 70%;
-    box-shadow: -5px 1.5rem 5px rgba(115, 207, 244, 0.74);
+    box-shadow: -1rem .2rem 5px rgba(115, 207, 244, 0.74);
 }
 
 .welcome {
