@@ -55,6 +55,8 @@
 
 .img-fluid {
     border: 0px solid skyblue;
+    border-top: .2rem solid rgba(115, 207, 244, .74);
+    border-right: .2rem solid rgba(115, 207, 244, .74);
     border-bottom-left-radius: 70%;
     box-shadow: -1rem .2rem 5px rgba(115, 207, 244, 0.74);
 }
