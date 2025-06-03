@@ -29,6 +29,14 @@
     margin-left: 55%;
 }
 
+.home {
+   color :rgb(220, 136, 52); 
+}
+
+#home {
+    color: rgb(220, 136, 52);
+}
+
 /* Hero Section */
 
 .hero-section {
@@ -37,7 +45,7 @@
 
 .p-2 {
     margin-top: 3vh;
-    margin-bottom: 4vh;
+    margin-bottom: 3vh;
 }
 
 .hero-button {
@@ -53,4 +61,32 @@
 
 .welcome {
     color: rgb(115, 207, 244);
+}
+
+.intro {
+    color: rgb(11, 126, 171);
+}
+
+.see {
+    color: rgb(115, 207, 244);
+}
+
+.developer {
+    color: rgb(220, 136, 52);
+}
+
+/* Button */ 
+ 
+#btn {
+    background-color: rgb(115, 207, 244);
+    color: #fff;
+}
+
+#btn:hover {
+    background-color: #fff;
+    color: rgb(115, 207, 244);
+}
+
+#btn2:hover {
+    color: white;
 }
