@@ -1,0 +1,17 @@
+.navbar .container-fluid {
+    background-color: white;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: white;
+}
+
+.collapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-nav {
+    column-gap: 50%;
+}
