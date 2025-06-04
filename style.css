@@ -31,7 +31,7 @@ body {
 
 .brand-image {
     border-radius: 45%;
-    margin-left: 55%;
+    margin-left: 100%;
 }
 
 .home {
@@ -104,4 +104,10 @@ body {
 
 .hero-paragraph {
     font-weight: 400;
+}
+
+/* About me */
+
+.about_me {
+    margin-top: 20vh;
 }
