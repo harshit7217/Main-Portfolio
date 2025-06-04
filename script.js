@@ -5,8 +5,34 @@ function see_more() {
     seeMore.innerText = "I am passionate about software development and constantly expanding my skills in Java, Javascript, and frontend technologies. With a strong foundation in algorithms, data structure and problem solving, I actively engage in Coding challenges and interactive programming projects.";
 }
 
-function seeMore() {
-    var see = document.querySelector("#see");
-    see.innerText = "";
-    var s = document.querySelector("#seeMore").innerText = "I am also preparing for software engineering internships, refining your resume, tackling coding assessments, and exploring opportunities like the Frontend Engineer Intern role. Recently, i've been troubleshooting Java errors, implementing sorting algorithms, and working on interactive projects like Tic-Tac-Toe logic. Your curiosity extends to software testing methodologies, efficient traversal techniques, and compiler optimization concepts. I have thrive on structured learning, detailed explanations, and practical applications, making significant strides toward your goal of becoming a skilled full-stack developer. Keep pushing forward—you're building an impressive technical foundation!";
-}
+document.getElementById('btn2').addEventListener('click', function() {
+    window.open('./Resume/Harshit_ChaudharyResume.pdf', '_blank');
+});
+
+document.getElementById('icon1').addEventListener('click', function() {
+    window.open('https://www.linkedin.com/in/harshit-7217-chaudhary/', '_blank');
+});
+
+document.getElementById('icon2').addEventListener('click', function() {
+    window.open('https://x.com/cha84587', '_blank');
+});
+
+document.getElementById('icon3').addEventListener('click', function() {
+    window.open('https://www.instagram.com/har_shitchaudhary/', '_blank');
+});
+
+document.getElementById('icon4').addEventListener('click', function() {
+    window.open('https://www.hackerrank.com/profile/harshitchaudha12 ', '_blank');
+});
+
+document.getElementById('icon5').addEventListener('click', function() {
+    window.open('https://github.com/harshit7217', '_blank');
+});
+
+document.getElementById('icon6').addEventListener('click', function() {
+    window.open('https://www.codechef.com/users/harshit_11ch7', '_blank');
+});
+
+document.getElementById('icon7').addEventListener('click', function() {
+    window.open('https://leetcode.com/u/Mrstiff_chaudhary/', '_blank');
+});
