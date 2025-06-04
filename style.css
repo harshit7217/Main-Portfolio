@@ -1,3 +1,8 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
 /* Navbar */
 
 .navbar .container-fluid {
@@ -37,6 +42,7 @@
     color: rgb(220, 136, 52);
 }
 
+
 /* Hero Section */
 
 .hero-section {
@@ -71,6 +77,9 @@
 
 .see {
     color: rgb(115, 207, 244);
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
 .developer {
@@ -91,4 +100,8 @@
 
 #btn2:hover {
     color: white;
+}
+
+.hero-paragraph {
+    font-weight: 400;
 }

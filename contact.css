@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Navbar */
+
+.navbar .container-fluid {
+    background-color: white;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: white;
+}
+
+.collapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-nav {
+    column-gap: 50%;
+}
+
+.nav-item {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.brand-image {
+    border-radius: 45%;
+    margin-left: 55%;
+}
+
+.contact {
+    color: rgb(220, 136, 52);
+}
+
+#contact {
+    color: rgb(220, 136, 52);
+}
