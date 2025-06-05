@@ -41,3 +41,31 @@ body {
 #contact {
     color: rgb(220, 136, 52);
 }
+
+/* Footer */
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.alpha {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 10vh;
+}
+
+.col a {
+    color: black;
+}
+
+.icon a:hover, .icon .main:hover {
+    filter: invert(50%) sepia(70%) hue-rotate(180deg);
+}
+
+
+.icon img:hover {
+    filter: invert(50%) sepia(70%) hue-rotate(180deg);
+}
