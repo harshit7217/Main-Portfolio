@@ -5,9 +5,15 @@ function see_more() {
     seeMore.innerText = "I am passionate about software development and constantly expanding my skills in Java, Javascript, and frontend technologies. With a strong foundation in algorithms, data structure and problem solving, I actively engage in Coding challenges and interactive programming projects.";
 }
 
+
+// Resume open in new tab
+
 document.getElementById('btn2').addEventListener('click', function() {
     window.open('./Resume/Harshit_ChaudharyResume.pdf', '_blank');
 });
+
+
+//  Footer Svg open in new tab
 
 document.getElementById('icon1').addEventListener('click', function() {
     window.open('https://www.linkedin.com/in/harshit-7217-chaudhary/', '_blank');
@@ -35,4 +41,18 @@ document.getElementById('icon6').addEventListener('click', function() {
 
 document.getElementById('icon7').addEventListener('click', function() {
     window.open('https://leetcode.com/u/Mrstiff_chaudhary/', '_blank');
+});
+
+
+// Images in recent work
+document.getElementById('image1').addEventListener('click', function() {
+    window.open('https://raw.githack.com/harshit7217/rvitmanthan/refs/heads/main/course/index.html', '_blank');
+});
+
+document.getElementById('image2').addEventListener('click', function() {
+    window.open('https://raw.githack.com/harshit7217/Library-Frontend/refs/heads/main/index.html', '_blank');
+});
+
+document.getElementById('image3').addEventListener('click', function() {
+    window.open('https://raw.githack.com/harshit7217/Amazon-Clone/refs/heads/main/index.html', '_blank');
 });

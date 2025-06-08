@@ -106,6 +106,53 @@ body {
     font-weight: 400;
 }
 
+
+
+/* Recent work */
+
+.recent_work {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.recent {
+    margin-bottom: -2rem;
+}
+
+/* Button */
+
+.beta {
+    background-color: rgb(115, 207, 244);
+    color: #fff;
+    border-color: rgb(115, 207, 244);
+}
+
+.beta:hover {
+    background-color: #fff;
+    color: rgb(115, 207, 244);
+    border-color: rgb(115, 207, 244);
+}
+
+/* Images */
+
+.recent2 {
+    margin-top: -2rem;
+}
+
+.sigma:hover {
+    border: 5px solid rgba(11, 126, 171, 0.142);
+}
+
+.img2 {
+    border: 5px solid rgba(115, 207, 244, 0.225)
+}
+
+/* Got a project */
+
+.gama {
+    color: rgb(11, 126, 171);
+}
+
 /* Footer */
 
 .col {
@@ -132,33 +179,4 @@ body {
 
 .icon img:hover {
     filter: invert(50%) sepia(70%) hue-rotate(180deg);
-}
-
-/* Recent work */
-
-.recent_work {
-    margin-left: 7rem;
-    margin-right: 7rem;
-}
-
-.recent {
-    margin-bottom: -2rem;
-}
-
-/* Button */
-
-.beta {
-    background-color: rgb(115, 207, 244);
-    color: #fff;
-}
-
-.beta:hover {
-    background-color: #fff;
-    color: rgb(115, 207, 244);
-}
-
-/* Images */
-
-.recent2 {
-    margin-top: -2rem;
 }
