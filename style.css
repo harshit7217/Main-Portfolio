@@ -153,6 +153,11 @@ body {
     color: rgb(11, 126, 171);
 }
 
+.got-project {
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+
 /* Footer */
 
 .col {
