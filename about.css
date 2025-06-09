@@ -42,6 +42,20 @@ body {
     color: rgb(220, 136, 52);
 }
 
+/* About me */
+
+.about-me {
+    margin: 3rem;
+}
+
+.intro {
+    color: rgb(11, 126, 171);
+}
+
+.developer {
+    color: rgb(220, 136, 52);
+}
+
 /* Footer */
 
 .col {
