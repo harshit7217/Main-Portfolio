@@ -61,18 +61,8 @@
                     <div class="d-flex flex-column mb-3">
                         <div class="p-2">
                             <p>I am a dedicated B.Tech student at RV Institute of Technology, specializing in Computer
-                                Science and Engineering. I'm a strong passion for coding, particularly in Java and
-                                JavaScript, and enjoys solving algorithmic challenges and debugging errors. I'm actively
-                                preparing for software engineering internships, focusing on full-stack development,
-                                frontend
-                                technologies, and software testing. With an interest in optimization strategies and
-                                interactive
-                                programming, I am continuously expanding his technical expertise and refining his
-                                professional profile.
-
-                                I'm deeply committed to continuous learning, problem-solving, and becoming a skilled
-                                software
-                                engineer.
+                                Science and Engineering.<span class="see" id="aboutDetail"><button class="see" id="see"
+                                        onclick="seeMore()">See More...</button></span> <span></span>
                             </p>
                         </div>
                         <div class="p-2" align="left">
@@ -94,30 +84,29 @@
                 <h1 class="intro">My <span class="developer">Education</span></h1>
             </div>
             <div class="p-2">
-                <div class="container text-center">
+                <div class="container block text-center">
                     <div class="row">
                         <div class="col" align="left">
                             <img src="Images/saraswatiVidyaMandir.webp" class="img-fluid" alt="svm">
                         </div>
                         <div class="col">
-                            <h3>Saraswati Vidya Mandir Sr. Sec. School, Chandpur (Uttar Pradesh)</h3>
+                            <h3 class="school">Saraswati Vidya Mandir Sr. Sec. School, Chandpur (Uttar Pradesh)</h3>
                         </div>
                         <div class="col" align="left">
                             <p>
                                 I have completed my 10th and 12th education at Saraswati Vidya Mandir Sr.
-                                Sec. School in Chandpur, Uttar Pradesh, achieving 70% and 75%, respectively.
-                                That consistency shows your dedication to academics and learning.
+                                Sec. School in Chandpur, Uttar Pradesh, <b>achieving 70% and 75%</b>, respectively.
+                                That consistency shows your dedication to academics and learning. <span
+                                    class="see svm-para" id="svm"><button class="see" id="svm-btn" onclick="svm()">See
+                                        More..</button></span>
                                 <br>
-                                Beyond academics, I actively participated in Vedic Maths, which enhanced
-                                my problem-solving speed and mathematical intuition—something that
-                                complements your current interests in Java, JavaScript, and algorithmic
-                                challenges. Your school years played a key role in shaping your analytical
-                                thinking, which is now reflected in your passion for coding and debugging.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Collage -->
             <div class="p-2">
                 <div class="container text-center">
                     <div class="row">
@@ -125,7 +114,7 @@
                             <img src="Images/rvit-logo.png" class="img-fluid" alt="rvit">
                         </div>
                         <div class="col" align="left">
-                            <h3>RV Institute of Technology at Bijnor, Uttar Pradesh</h3>
+                            <h3 class="school">RV Institute of Technology at Bijnor, Uttar Pradesh</h3>
                         </div>
                         <div class="col" align="left">
                             <p>
@@ -133,23 +122,9 @@
                                 filled with learning, coding, and professional growth! I'm pursuing a <b>B.Tech in
                                     Computer Science and Engineering</b>, where i'm deeply engaged in <b>Java,
                                     JavaScript,
-                                    algorithmic challenges, frontend technologies, and software testing</b>.
-                                <br>
-                                I have actively refined my technical expertise by working on coding problems,
-                                debugging errors, and optimizing solutions. My commitment to continuous learning
-                                and problem-solving shines through in my preparation for <b>software engineering
-                                    internships</b>, where you're focusing on <b>full-stack development</b> and
-                                strengthening
-                                your professional profile.
-                                <br>
-                                Beyond academics, i'm involvement in the <b>Technocart Club</b> demonstrates my passion
-                                for technology and collaboration with like-minded individuals. With a <b>7.59 CGPA</b>,
-                                you're balancing coursework and hands-on technical experience effectively. I have also
-                                built a <b>portfolio</b> to showcase your skills, projects, and achievements, further
-                                solidifying your presence in the industry.
-                                <br>
-                                My dedication to becoming a <b>skilled software engineer</b> is evident, and i'm on a
-                                fantastic path toward making an impact in the tech world!
+                                    algorithmic challenges, frontend technologies, and software testing</b>. <span
+                                    class="see svm-para" id="rvit"><button class="see" id="rvit-btn" onclick="rvit()">See
+                                        More...</button></span>
                             </p>
                         </div>
                     </div>
@@ -165,12 +140,13 @@
         <div class="experience">
             <div class="d-flex flex-column mb-3">
                 <div class="p-2">
-                    <h1>My Experience</h1>
+                    <h1  class="intro">My <span class="developer">Experience</span></h1>
                 </div>
-                <div class="p-2">
-                    <h4>June-2025</h4>
-                    <h2>Frontend Developer</h2>
-                    <h4>UM Internship</h4>
+                <br>
+                <div class="p-2 box">
+                    <h5 class="time">June-2025</h5>
+                    <h3 class="heading">Frontend Developer</h3>
+                    <h5 class="time">UM Internship</h5>
                     <p>
                         A Student-Teacher Appointment System could streamline scheduling, making it easier for students
                         to book consultations with teachers efficiently. Since you have experience in JavaScript,
@@ -189,20 +165,35 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                        <h1>My Hobbies</h1>
+                        <h1 class="intro">My <span class="developer">Hobbies</span></h1>
                     </div>
-                    <div class="col">
+                    <div class="col hobbies">
                         <div class="d-flex flex-column mb-3">
-                            <div class="p-2"><h4>Coding Challenges & Debugging</h4></div>
-                            <div class="p-2"><h4>Exploring New Programming Concepts</h4></div>
-                            <div class="p-2"><h4>Project Development</h4></div>
+                            <div class="p-2">
+                                <h4>Coding Challenges & Debugging</h4>
+                            </div>
+                            <hr>
+                            <div class="p-2">
+                                <h4>Exploring New Programming Concepts</h4>
+                            </div>
+                            <hr>
+                            <div class="p-2">
+                                <h4>Project Development</h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
+                        
                         <div class="d-flex flex-column mb-3">
-                            <div class="p-2"><h4>Gym & Fitness</h4></div>
-                            <div class="p-2"><h4>Personal Development & Learning</h4></div>
-                            <div class="p-2"><h4>Collaborating in Tech Communities</h4></div>
+                            <div class="p-2">
+                                <h4>Collaborating in Tech Communities</h4>
+                            </div>
+                            <hr>
+                            <div class="p-2">
+                                <h4>Personal Development & Learning</h4>
+                            </div>
+                            <hr>
+                            <div class="p-2">
+                                <h4>Gym & Fitness</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -266,7 +257,7 @@
 
         <!-- Adding script file -->
 
-        <script src="script.js"></script>
+        <script src="about.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
             crossorigin="anonymous"></script>

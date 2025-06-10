@@ -56,6 +56,71 @@ body {
     color: rgb(220, 136, 52);
 }
 
+.see {
+    color: rgb(11, 126, 171);
+    background-color: white;
+    border: none;
+}
+
+#aboutDetail {
+    color: black;
+}
+
+/* Button */
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(11, 126, 171);
+}
+
+/* Education  */
+
+/* Saraswatin vidya mandir */ 
+
+.school {
+    color: rgb(11, 126, 171);
+}
+
+.svm-para {
+    color: black;
+}
+
+/* experince */
+
+.experience .p-2 {
+    margin-left:  4rem;
+    margin-right:  5rem;
+}
+
+.box {
+    width: 35vw;
+    border: .2px solid rgb(115, 207, 244);
+    padding: 1rem;
+    border-radius: 4%;
+}
+
+.heading {
+    color: rgb(220, 136, 52);
+}
+
+.time {
+    color: rgb(115, 207, 244);
+}
+
+
+/* Hobby */
+
+
+.hobbies h4 {
+    font-size: large;
+    /* color: rgb(115, 207, 244); */
+}
+
+
 /* Footer */
 
 .col {
