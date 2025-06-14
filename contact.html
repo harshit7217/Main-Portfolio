@@ -19,6 +19,7 @@
             });
         })();
     </script>
+    <script src="contact.js"></script>
 </head>
 
 <body>
@@ -78,19 +79,19 @@
                 <div class="col">
                     <form action="" class="row g-3">
                         <div class="col-md-6" align="left">
-                            <label for="inputName" class="form-label gama">Your Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <label for="name" class="form-label gama">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
                         </div>
                         <div class="col-md-6" align="left">
-                            <label for="inputEmail4" class="form-label gama"> Your Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <label for="email" class="form-label gama"> Your Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
                         </div>
                         <div class="mb-3" align="left">
-                            <label for="inputMessage" class="form-label gama">Your Message</label>
-                            <textarea class="form-control" id="message" rows="7" placeholder="Message"></textarea>
+                            <label for="message" class="form-label gama">Your Message</label>
+                            <textarea class="form-control" id="message" rows="7" placeholder="Message" required></textarea>
                         </div>
                         <div class="col-md-3" align="left">
-                            <button type="submit" class="btn btn-primary beta" id="sendButton">Send</button>
+                            <button type="submit" class="btn btn-primary beta" onclick="sendButton()" id="sendButton">Send</button>
                         </div>
                     </form>
                 </div>
