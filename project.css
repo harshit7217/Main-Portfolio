@@ -42,6 +42,28 @@ body {
     color: rgb(220, 136, 52);
 }
 
+/* project */
+
+.project2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    color: rgb(11, 126, 171);
+}
+
+.developer {
+    color: rgb(220, 136, 52);
+}
+
+.see1 {
+    background-color: white;
+    color: rgb(11, 126, 171);
+    border: none;
+}
+
 /* Footer */
 
 .col {

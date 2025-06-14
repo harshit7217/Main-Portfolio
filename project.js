@@ -1,0 +1,6 @@
+// Library Function
+function library() {
+    const msg = document.querySelector("#see");
+    msg.innerText = "The web interface features an intuitive design with clear navigation options, allowing users to explore a wide range of subjects, including Computer Science, Mechanical, Electrical, and Electronics. A structured search function enables quick retrieval of books based on keywords, making research and study sessions more productive. The system also highlights trending books, recommended authors, and educational materials, ensuring that users stay updated with valuable resources. Integrated features like login and sign-up allow personalized access, while additional options such as e-journal access and community engagement programs enhance the overall experience. The design prioritizes user convenience, ensuring a smooth, responsive, and visually appealing interface that supports learning and exploration. Whether students need textbooks, reference materials, or curated educational content, the Library Management System provides a comprehensive platform for academic growth."
+
+}
