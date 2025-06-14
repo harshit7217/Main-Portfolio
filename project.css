@@ -64,6 +64,10 @@ body {
     border: none;
 }
 
+.sub-project {
+    padding: 2rem;
+}
+
 /* Footer */
 
 .col {
